@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['name']='Mahesh<br>';
+$_SESSION['name']='No of sessions: <br>';
 if (isset($_SESSION['count'])) {
     $_SESSION['count']= $_SESSION['count']+1;
 }
